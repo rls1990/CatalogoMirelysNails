@@ -1,0 +1,81 @@
+.testres {
+  background: url("/img/parallax-6-1920x780.jpg");
+  height: 100vh;
+  background-size: contain;
+  margin-top: 50px;
+}
+
+.testres .title-testres {
+  padding-top: 20px;
+}
+
+.testres .title-testres h3 {
+  text-align: center;
+}
+
+.sliderTest {
+  height: 70vh;
+}
+.sliderTest .slides {
+  background-color: transparent;
+  height: 100%;
+}
+.sliderTest .slides li .caption {
+  top: 0;
+}
+
+.sliderTest .indicators {
+  z-index: 2;
+}
+.sliderTest .indicators .indicator-item {
+  background-color: #ffffff;
+}
+
+.sliderTest .indicators .indicator-item.active {
+  background-color: rgb(245, 160, 174);
+}
+
+.sliderTest .slides li .caption p {
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.divquottr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 800px) and (max-width: 100vw) {
+  .sliderTest .slides li .caption .imgstestres {
+    margin-top: 10%;
+    width: 90px;
+  }
+  .sliderTest .slides li .caption p {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 799px) {
+  .sliderTest .slides li .caption .imgstestres {
+    margin-top: 7%;
+    width: 80px;
+  }
+  .sliderTest .slides li .caption p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .sliderTest .slides li .caption .imgstestres {
+    margin-top: 5%;
+    width: 70px;
+  }
+
+  .sliderTest .slides li .caption p {
+    font-size: 15px;
+  }
+
+  .sliderTest .indicators {
+    bottom: -10px;
+  }
+}

@@ -1,0 +1,32 @@
+.tinfe {
+  background: #f6f6f6;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.tinfe .divider {
+  width: 60%;
+  height: 3px;
+  background-color: rgba(255, 192, 203, 0.562);
+}
+
+.tinfe .card .card-image .img {
+  width: 100%;
+}
+
+.tinfe .card {
+  transition: transform 0.3s ease;
+}
+
+.tinfe .card:hover {
+  transform: scale(1.05);
+}
+
+.tinfe .divider.divcard {
+  width: 48%;
+  height: 3px;
+  background-color: rgba(255, 192, 203, 0.562);
+  margin-left: 25%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

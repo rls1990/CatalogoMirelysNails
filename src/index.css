@@ -1,0 +1,22 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+  font-family: "Brush Script MT Italic";
+  src: url("/font/7655d129d0addb2f08a5c1dc994aaa4b.woff") format("woff"),
+    url("/font/7655d129d0addb2f08a5c1dc994aaa4b.woff2") format("woff2"),
+    url("/font/7655d129d0addb2f08a5c1dc994aaa4b.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,33 @@
+.precesp {
+  margin: 50px;
+  margin-top: 25px;
+  min-height: 100vh;
+}
+.precesp h4 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.precesp .titleprecres .divider {
+  width: 20%;
+  height: 3px;
+  background-color: rgba(255, 192, 203, 0.562);
+}
+
+.precesp .titleprecres {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.precesp .titleprecres p {
+  font-size: 15px;
+  text-align: center;
+  color: gray;
+}
+
+.pricep-pr {
+  font-weight: 400;
+  font-size: 22px;
+}

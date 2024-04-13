@@ -1,0 +1,179 @@
+.fixnav {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.no-shadow {
+  box-shadow: none;
+}
+
+.nav-fix-tsh {
+  transition: box-shadow 0.4s;
+}
+
+nav .brand-logo {
+  color: black;
+  font-family: "Brush Script MT Italic";
+  font-size: 40px;
+  cursor: default;
+}
+
+.nav-pc-l {
+  margin-right: 30px;
+}
+
+.nav-pc-r {
+  margin-left: 30px;
+}
+
+nav ul a {
+  color: black;
+}
+
+nav a svg {
+  color: #000000cc;
+  margin-top: 16px;
+  margin-left: 30px;
+}
+
+.show-sidenav {
+  transform: translateX(0%);
+}
+
+.sidenav {
+  top: 66px;
+  transition: transform 0.2s linear;
+}
+
+.content-more-cell {
+  box-shadow: none;
+  background: transparent;
+  overflow: unset;
+}
+
+.content-more-pc {
+  box-shadow: none;
+  background: transparent;
+  overflow: unset;
+}
+
+.content-moreul-cell {
+  position: relative;
+  top: 0px;
+  right: 175px;
+  background-color: white;
+  height: 160px;
+  width: 259px;
+  margin: 4px;
+}
+
+.content-moreul-pc {
+  position: relative;
+  top: 16px;
+  background-color: white;
+  height: 171px;
+  width: 166px;
+  margin: 4px;
+  border-top: 2px solid #fac9b9;
+}
+
+.content-moreul-cell ul {
+  width: 100%;
+  height: 100%;
+}
+
+.content-moreul-pc ul li a {
+  color: #000000cc;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+}
+
+.content-moreul-pc ul li a svg {
+  margin: 0;
+  position: relative;
+  top: 6px;
+  left: 0;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.content-moreul-pc ul li a:hover svg,
+.content-moreul-pc ul li a:hover {
+  color: #fac9b9;
+}
+
+.content-moreul-pc ul li:hover {
+  background: transparent;
+}
+
+.content-moreul-cell ul li span {
+  font-size: 14px;
+  color: #000000cc;
+}
+
+nav ul a:hover {
+  background-color: transparent;
+}
+
+.expand {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 26px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+}
+.expand:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #ffd8cb;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 100% 50%;
+}
+.expand:hover:after,
+.expand:focus:after,
+.expand:active:after,
+.active-ex::after {
+  transform: scaleX(1);
+  transform-origin: 0 50%;
+}
+
+.expand .otros {
+  margin-left: 3px;
+  margin-top: 0;
+  position: relative;
+  top: 6px;
+  right: -4px;
+  transition: all 0.3s ease;
+}
+
+.otros:hover,
+.expand:hover .otros {
+  color: #fac9b9;
+  transform: rotate(180deg);
+}
+
+.sidenav {
+  width: 260px;
+}
+
+.sidenav li a,
+.sidenav li {
+  transition: all 0.2s ease;
+}
+
+.sidenav li a {
+  display: flex;
+}
+
+.sidenav li:hover {
+  background: #fac9b9;
+}
+
+.sidenav li:hover a {
+  color: white;
+}

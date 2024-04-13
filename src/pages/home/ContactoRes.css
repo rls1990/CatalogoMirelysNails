@@ -1,0 +1,30 @@
+.cr {
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.c3ci {
+  display: flex;
+  align-items: center;
+}
+
+.cr h5 {
+  font-size: 27px;
+  text-align: left;
+}
+
+.cr p {
+  font-size: 15px;
+  text-align: left;
+  color: gray;
+}
+
+.cr .c3ci svg {
+  color: #e0bcb0;
+}
+
+.cr .divider {
+  width: 50%;
+  height: 3px;
+  background-color: rgba(255, 192, 203, 0.562);
+}

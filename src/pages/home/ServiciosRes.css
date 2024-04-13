@@ -1,0 +1,26 @@
+.servr {
+  height: 100vh;
+  margin-top: 20px;
+}
+.servr .padsc1 {
+  margin-bottom: 0;
+}
+.servr .div-tc {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.servr .col-serv {
+  padding: 25px 4px;
+  height: 300px;
+}
+.servr .col-serv img {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .servr .img-ds img {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+  }
+}

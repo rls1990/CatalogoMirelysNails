@@ -1,0 +1,22 @@
+.fott {
+  height: 55px;
+  background-color: #f6f6f6;
+}
+
+.fott .logo {
+  color: #000000b5;
+  font-family: "Brush Script MT Italic";
+  font-size: 35px;
+  cursor: default;
+  margin-left: 20px;
+  line-height: 55px;
+}
+.fott p {
+  line-height: 55px;
+  color: gray;
+}
+.fott .socialf {
+  position: relative;
+  top: -50px;
+  right: 0;
+}

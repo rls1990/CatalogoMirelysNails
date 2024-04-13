@@ -1,0 +1,44 @@
+.infprec {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.infprec .divider {
+  width: 20%;
+  height: 3px;
+  background-color: rgba(255, 192, 203, 0.562);
+  margin-left: 40%;
+}
+
+.infprec .descinfpre {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.infprec .descinfpre p {
+  width: 500px;
+}
+
+.tablprecsp {
+  margin-top: 30px;
+  padding: 50px;
+}
+
+.tablprecsp .itemtpprec {
+  padding: 3%;
+}
+
+.tablprecsp .prec {
+  font-size: 20px;
+}
+
+.imgprec img {
+  width: 100%;
+}
+
+@media screen and (min-width: 993px) {
+  .row.tablprecsp .col.l6 {
+    width: 44%;
+  }
+}

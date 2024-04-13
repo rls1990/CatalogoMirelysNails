@@ -1,0 +1,42 @@
+.infotest {
+  margin-top: 50px;
+}
+
+.infotest .divider {
+  width: 20%;
+  height: 3px;
+  background-color: rgba(255, 192, 203, 0.562);
+  margin-left: 39%;
+}
+
+.cardtest {
+  margin-top: 50px;
+}
+.cardtest .item-card-test {
+  padding: 30px;
+  margin: 10px;
+  margin-bottom: 70px;
+  height: 282px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 22px;
+  border-bottom: 4px solid rgb(255, 216, 203);
+  position: relative;
+}
+
+.cardtest .item-card-test .title-ict {
+  display: flex;
+}
+
+.cardtest .item-card-test .title-ict .divider {
+  width: 40px;
+  transform: rotate(90deg);
+  margin-top: 29px;
+  height: 2px;
+}
+
+.cardtest .item-card-test img {
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  left: 35px;
+  bottom: -15%;
+}

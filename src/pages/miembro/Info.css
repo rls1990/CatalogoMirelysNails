@@ -1,0 +1,44 @@
+.infomeq {
+  margin: 30px;
+}
+
+.infomeq .imgm {
+  width: 90%;
+}
+
+.infomeq .divider {
+  width: 30%;
+  height: 3px;
+  background-color: rgba(255, 192, 203, 0.562);
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 992px) {
+  .infomeq .imgm {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .infomeq .imgm {
+    width: 70%;
+  }
+}
+
+.infomeq .dcert h5 {
+  margin-top: 30px;
+}
+
+.infomeq .dcert .divider {
+  margin-left: 35%;
+}
+
+.dcert .carousel img {
+  width: 300px;
+  padding: 40px;
+}
+
+.imgdiplm {
+  height: 350px;
+  margin-bottom: 30px;
+}

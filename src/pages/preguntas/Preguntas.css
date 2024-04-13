@@ -1,0 +1,21 @@
+.infopreg {
+  margin: 50px;
+}
+
+.infopreg .divider {
+  width: 33%;
+  height: 3px;
+  background-color: rgba(255, 192, 203, 0.562);
+  margin-left: 33%;
+  margin-bottom: 20px;
+}
+
+.infopreg .pdescpreginf {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.infopreg .pdescpreginf p {
+  width: 500px;
+}

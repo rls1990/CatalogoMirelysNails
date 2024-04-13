@@ -1,0 +1,161 @@
+.servsec1 {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.servsec1 .divider {
+  width: 40%;
+  height: 3px;
+  background-color: rgba(255, 192, 203, 0.562);
+}
+
+.servsec1 .contsect1serv {
+  margin-left: 30px;
+  margin-top: 35px;
+  height: 420px;
+}
+
+.servsec1 img {
+  width: 100%;
+}
+
+.sect2serv {
+  margin-top: 40px;
+
+  background-color: #f6f6f6;
+  padding: 20px;
+}
+
+.sect2serv .divider {
+  width: 20%;
+  height: 3px;
+  background-color: rgba(255, 192, 203, 0.562);
+  margin-bottom: 30px;
+  margin-left: 40%;
+}
+
+.sect2serv .sect2liserv p {
+  width: 37%;
+}
+
+.sect2serv .dsec2servcom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sect2serv .sect2liserv {
+  padding: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .sect2serv .sect2liserv {
+    padding: 10px;
+  }
+}
+
+.sect2serv .sect2liserv .itemsect2liserv {
+  height: 300px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+.sect2serv .sect2liserv .itemsect2liserv img {
+  border-radius: 50%;
+}
+
+.sect2serv .sect2liserv .itemsect2liserv:hover {
+  background: #ffffff;
+  box-shadow: 0 0 22px rgba(0, 0, 0, 0.1);
+}
+
+.sect2serv .sect2liserv .itemsect2liserv:hover img {
+  box-shadow: 0 0 22px rgba(0, 0, 0, 0.1);
+}
+
+.sect2serv .sect2liserv .itemsect2liserv p {
+  width: 100%;
+}
+
+.srphorserv {
+  height: 80vh;
+}
+
+.srphorserv .c1 {
+  height: 100%;
+  border-color: #ffd8cb;
+  border-width: 3px;
+  border-style: solid;
+  padding: 15px;
+  padding-left: 4%;
+}
+.srphorserv .c2 img {
+  position: relative;
+  top: 263px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 422px;
+}
+.srphorserv .c3 {
+  height: 100%;
+  background-color: #ffd8cb;
+  color: white;
+  padding: 15px;
+  padding-left: 12%;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 100vw) {
+  .srphorserv .c1 {
+    transform: translateX(15%);
+  }
+
+  .srphorserv .c3 {
+    transform: translateX(-15%);
+  }
+}
+
+.srphorserv .c3 .linkc3serv2 {
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: gray;
+  font-weight: 600;
+}
+.srphorserv .c3 .linkc3serv2 svg {
+  position: relative;
+  top: 6px;
+  left: 5px;
+  width: 20px;
+  color: #c97483;
+  transition: all 0.3s ease-in-out;
+}
+
+.srphorserv .c3 .linkc3serv2:hover svg {
+  transform: translateX(5px) rotateX(180deg);
+}
+
+.srphorserv .c3 .linkc3serv2:hover {
+  color: #c97483;
+}
+
+.srphorserv .c1 .linkc3serv2 {
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: gray;
+  font-weight: 600;
+}
+.srphorserv .c1 .linkc3serv2 svg {
+  position: relative;
+  top: 6px;
+  left: 5px;
+  width: 20px;
+  color: #c97483;
+  transition: all 0.3s ease-in-out;
+}
+
+.srphorserv .c1 .linkc3serv2:hover svg {
+  transform: translateX(5px) rotateX(180deg) scale(1.1);
+}
+
+.srphorserv .c1 .linkc3serv2:hover {
+  color: #c97483;
+}

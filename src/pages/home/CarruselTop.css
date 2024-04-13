@@ -1,0 +1,90 @@
+.slider-ct {
+  height: 100vh;
+  background-color: #f6f6f6;
+}
+
+.slider-ct .slides {
+  height: 100vh;
+}
+.slider-ct .slides li img {
+  background-position-x: 85%;
+}
+
+.slider-ct .indicators {
+  left: unset;
+  z-index: 2;
+  top: 30%;
+  right: 14px;
+}
+
+.slider-ct .indicators .indicator-item {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 12px 12px;
+  background-color: #e0e0e0;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  border-radius: 50%;
+}
+
+.slider-ct .indicators .indicator-item.active {
+  background-color: pink;
+}
+
+.slider-ct .slides li .caption {
+  color: rgb(43, 43, 43);
+  z-index: 10;
+  padding: 30px;
+  text-align: left;
+}
+
+@media screen and (min-width: 801px) and (max-width: 100vw) {
+  .slider-ct .slides li .caption {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .slider-ct .slides li .caption {
+    width: 67vw;
+  }
+}
+
+.slider-ct .slides li .caption h3 {
+  font-size: 27px;
+  color: rgb(65, 65, 65);
+}
+
+.slider-ct .slides li .caption h5 {
+  font-size: 19px;
+  color: rgb(114, 114, 114);
+}
+
+.slider-ct .slides li .caption .divider {
+  width: 147px;
+  height: 3px;
+  background-color: rgba(255, 192, 203, 0.562);
+}
+
+.caption-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-ct .slides li .caption-img img {
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: 10%;
+  height: 79%;
+  width: 79%;
+  top: 170px;
+}
