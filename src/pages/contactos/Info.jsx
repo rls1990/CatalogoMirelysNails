@@ -37,24 +37,24 @@ export default function Info() {
         <div className="col s12 m12 l4 c2">
           <h5>Dirección</h5>
           <div className="grey-text">
-            <p>{contacto.direccion}</p>
+            <p>{contacto ? contacto.direccion : "dirección del contacto."}</p>
           </div>
           <div className="divider"></div>
           <h5>Telefonos</h5>
           <div className="grey-text">
-            <p>{contacto.telefonos}</p>
+            <p>{contacto ? contacto.telefonos : "Teléfonos del contacto."}</p>
           </div>
           <div className="divider"></div>
           <h5>Correo electrónico</h5>
           <div className="grey-text">
-            <p>{contacto.correos}</p>
+            <p>{contacto ? contacto.correos : "Correo del contacto"}</p>
           </div>
           <div className="divider"></div>
           <h5>Resdes Sociales</h5>
           <div className="grey-text">
-            <p>{contacto.instagram && contacto.instagram}</p>
-            <p>{contacto.pinterest && contacto.pinterest}</p>
-            <p>{contacto.facebook && contacto.facebook}</p>
+            <p>{contacto && contacto.instagram && contacto.instagram}</p>
+            <p>{contacto && contacto.pinterest && contacto.pinterest}</p>
+            <p>{contacto && contacto.facebook && contacto.facebook}</p>
           </div>
           <div className="divider"></div>
           <h5>Horario de apertura</h5>

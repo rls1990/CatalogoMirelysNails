@@ -64,7 +64,7 @@ export default function Form() {
                   key={"correo" + key}
                   {...register("correo", { required: true })}
                   type="email"
-                  className="validate"
+                  className="validate black-text"
                   autoComplete="true"
                 />
                 <label htmlFor="correo">Email</label>
@@ -78,7 +78,7 @@ export default function Form() {
                   key={"telefono" + key}
                   {...register("telefono", { required: true })}
                   type="number"
-                  className="validate"
+                  className="validate black-text"
                 />
                 <label htmlFor="telefono">Teléfono</label>
               </div>
@@ -91,7 +91,7 @@ export default function Form() {
                   id="mensage"
                   key={"mensage" + key}
                   {...register("mensage", { required: true })}
-                  className="materialize-textarea validate"
+                  className="materialize-textarea validate black-text"
                 ></textarea>
                 <label htmlFor="mensage">Mensage</label>
               </div>
